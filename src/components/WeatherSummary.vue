@@ -1,5 +1,5 @@
 <script setup>
-import { capitalizeFirstLetter } from '../utils';
+import { capitalizeFirstLetter } from '@/utils';
 
 const props = defineProps({
   weatherInfo: {

@@ -1,11 +1,11 @@
 <script setup>
-import { BASE_URL } from './constants';
+import { BASE_URL } from '@/constants';
 import { ref, onMounted, computed } from 'vue';
-import { capitalizeFirstLetter } from './utils';
-import WeatherSummary from './components/WeatherSummary.vue';
-import Highlights from './components/Highlights.vue';
-import Coords from './components/Coords.vue';
-import Humidity from './components/Humidity.vue';
+import { capitalizeFirstLetter } from '@/utils';
+import WeatherSummary from '@/components/WeatherSummary.vue';
+import Highlights from '@/components/Highlights.vue';
+import Coords from '@/components/Coords.vue';
+import Humidity from '@/components/Humidity.vue';
 
 const city = ref('Paris');
 const weatherInfo = ref(null);

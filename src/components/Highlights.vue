@@ -1,6 +1,6 @@
 <script setup>
 import { computed } from 'vue';
-import { getPressureMm, getTime } from '../utils';
+import { getPressureMm, getTime } from '@/utils';
 
 const props = defineProps({
   weatherInfo: {
